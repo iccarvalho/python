@@ -47,3 +47,7 @@ print(math.pi)
 print(math.e)
 print(math.sqrt(9))
 print(dir(math)) # retorna uma lista com todas as funcionalidades do módulo math
+
+import random
+
+print(random.randrange(1, 10)) # retorna um número aleatório entre os parâmetros indicados
