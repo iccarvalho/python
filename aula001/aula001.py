@@ -27,7 +27,7 @@ print(f'Seu número é {num}\n')
 type(num) # retorna 'str'
 
 # int() converte para inteiro
-# srt() converte para string
+# str() converte para string
 # float() converte para float
 # round() arredonda a parte fracionária, mudando o tipo para int
 
