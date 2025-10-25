@@ -38,7 +38,7 @@ print(num4)
 
 # Removendo elementos
 
-del num3[3] # remove o elemento indicado
+del num3[3] # remove o elemento na posição indicada
 print(num3)
 
 num3.remove(1) # remove o elemento no índice 3
@@ -51,12 +51,20 @@ print(lista1)
 
 lista2 = lista1 # lista2 aponta para a mesma referência da lista1
 
+
 lista1.append(8)
 print(lista1)
 print(lista2)
 
+# Endereços de memória
+
+print(id(lista1))
+print(id(lista2))
+
 lista3 = lista1[:] # copia a lista1
+print(lista3)
 # lista3 = lista1.copy() também faz uma cópia da lista
+print(id(lista3)) # retorna endereço diferente da lista1, portanto não está apontando para a mesma referência
 
 # Procurando elementos numa lista
 
